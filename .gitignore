@@ -1,0 +1,52 @@
+# Python
+__pycache__/
+.venv/
+*.pyc
+*.pyo
+*.pyd
+dist/
+build/
+*.egg-info/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Linting
+.ruff_cache/
+.mypy_cache/
+.pylint.d/
+
+# Environment & secrets
+.env
+.env.local
+.env.*.local
+*.key
+*.pem
+
+# Logs
+*.log
+
+# Harness platform agent artifacts (must NEVER be committed)
+.claude/
+.qg/
+.harness/
+
+# IDE / editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# Build / version control
+*.bak
+*.orig
+*.rej
+
+# Local development
+.envrc
+.direnv/
