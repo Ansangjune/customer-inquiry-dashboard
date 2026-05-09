@@ -2,9 +2,8 @@ from fastapi import FastAPI
 
 app = FastAPI()
 
-
 @app.get("/api/inquiries/summary")
-async def get_summary():
+def get_summary():
     return {
         "total": 120,
         "open": 45,
